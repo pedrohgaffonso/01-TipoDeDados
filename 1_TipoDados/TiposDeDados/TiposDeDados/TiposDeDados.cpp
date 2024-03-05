@@ -48,7 +48,7 @@ int main()
 	cout << endl << endl;
 
 	cout << "Qualquer tecla para continuar...";
-	//system("pause"); // somente no Windows
+	system("pause"); // somente no Windows
 	system("cls");
 
 	cout << "Entrada de Dados" << endl;
@@ -59,9 +59,9 @@ int main()
 	int horas = 0;
 	int minutos = 0;
 
-	cout << "Digite seu nome: Pedro";
+	cout << "Digite seu nome: ";
 	cin >> nome;
-	cout << "Digite sua idade: 28";
+	cout << "Digite sua idade: ";
 	cin >> idade;
 	dias = idade * 365;
 	horas = dias * 24;
